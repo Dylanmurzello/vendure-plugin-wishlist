@@ -1,0 +1,57 @@
+{
+  "name": "@dylanmurzello/vendure-plugin-wishlist",
+  "version": "1.0.0",
+  "description": "Full-featured wishlist/favorites plugin for Vendure e-commerce framework with customer persistence and GraphQL API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "vendure",
+    "vendure-plugin",
+    "wishlist",
+    "favorites",
+    "ecommerce",
+    "shopping",
+    "cart",
+    "customer"
+  ],
+  "author": "Dylan Murzello",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dylanmurzello/vendure-plugin-wishlist"
+  },
+  "bugs": {
+    "url": "https://github.com/Dylanmurzello/vendure-plugin-wishlist/issues"
+  },
+  "homepage": "https://github.com/Dylanmurzello/vendure-plugin-wishlist#readme",
+  "peerDependencies": {
+    "@vendure/core": "^2.0.0 || ^3.0.0",
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/graphql": "^11.0.0 || ^12.0.0",
+    "typeorm": "^0.3.0",
+    "graphql-tag": "^2.12.0"
+  },
+  "devDependencies": {
+    "@vendure/core": "^3.0.0",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/graphql": "^12.0.0",
+    "typeorm": "^0.3.0",
+    "graphql-tag": "^2.12.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
