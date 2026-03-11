@@ -371,7 +371,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built for the [Vendure](https://www.vendure.io/) e-commerce framework
 - Inspired by real-world e-commerce needs
-- Developed with ❤️ by Gbros
+- Developed with ❤️
 
 ## 📮 Support
 
